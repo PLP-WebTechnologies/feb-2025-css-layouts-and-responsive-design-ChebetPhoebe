@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction to CSS</title>
+    <title>Responsive Layout</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1 id="main-title">Welcome to CSS Styling</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- Main Content -->
     <div class="container">
-        <p class="text">This is a paragraph demonstrating different text styles and readability.</p>
-
-        <img src="https://source.unsplash.com/600x400/?nature" alt="Styled Image">
-
-        <p class="text">This paragraph has a class applied to it, which changes its text color and font size.</p>
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Additional content goes here.</p>
+        </aside>
+        
+        <main class="content">
+            <h1>Welcome to My Website</h1>
+            <p>This is a sample webpage implementing Flexbox/Grid for layout.</p>
+        </main>
     </div>
 
 </body>
